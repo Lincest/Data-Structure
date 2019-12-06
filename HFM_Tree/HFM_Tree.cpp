@@ -155,11 +155,14 @@ string Save_encodeFile(string str){	//输入内容为要加密的string
 
 
 int main(){
-	char input_char[100]=" ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	int input_weight[100]={186,64,13,22,32,103,21,15,47,57,1,5,32,20,57,63,15,1,48,51,80,23,8,18,1,16,1};
-	int n=27;	//n表示字符个数 
+//	char input_char[100]=" ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+//	int input_weight[100]={186,64,13,22,32,103,21,15,47,57,1,5,32,20,57,63,15,1,48,51,80,23,8,18,1,16,1};
+//	int n=27;	//n表示字符个数 
 	//char input_char[100]="ABCDEFGH";
 	//int input_weight[100]={5,29,7,8,14,23,3,11};
+	char input_char[100]="ABCDEFG";
+	int input_weight[100]={1,13,38,8,15,5,20};
+	int n=7;	//n表示字符个数 
 	cout<<"字符频度为: \n";
 	for(int i=0;i<n;++i){
 		printf("%c : %d\n",input_char[i],input_weight[i]);

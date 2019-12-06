@@ -70,7 +70,7 @@ int main(){
 		InsertHash(&H,n);
 		key=0;
 	}	
-	cout<<sum<<endl;
+	cout<<endl;
 	printf("平均碰撞次数为: %.2f\n",sum/30.0);
 	for(int i=0;i<5;++i){
 		printf("请输入需要查找的人名:\n"); 
